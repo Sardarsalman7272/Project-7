@@ -6,6 +6,49 @@
 	background-color: #021b34;
 	width: 100%;
 }
+.header{
+	width: 100%;
+	background-color: white;
+}
+.header-mid{
+	display: flex;
+	align-items: center;
+	font-family: sans-serif;
+	width: 1170px;
+	padding: 15px 0px;
+	margin: auto;
+}
+.header-mid ul{
+	padding-left: 30px;
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+.header-buttons{
+	display: flex;
+	gap: 10px;
+	margin-left: 300px;
+}
+.btn1{
+	padding: 12px 15px;
+	border: 1px solid lightgrey;
+	border-radius: 6px;
+}
+.btn1:hover{
+	color: white;
+	background-color: #2699FB;
+}
+.btn2{
+	padding: 12px 15px;
+	background-color: #2699FB;
+	border: 1px solid lightgrey;
+	border-radius: 6px;
+	color: white;
+}
+.btn2:hover{
+	color: black;
+	background-color: white;
+}
 .s1main{
 	padding-bottom: 70px;
 	color: white;
